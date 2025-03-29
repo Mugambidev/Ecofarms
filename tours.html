@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Tours - EcoFarms Meru Organic Coffee</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="EcoFarms Meru Logo">
+                <span>EcoFarms Meru</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="coffee.html">Our Coffee</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="tours.html" class="active">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Tours Hero -->
+    <header class="page-hero tours-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1>Experience Our Organic Coffee Farm</h1>
+            <p>Walk through the journey from seed to cup in the beautiful Meru countryside</p>
+        </div>
+    </header>
+
+    <!-- Tour Options -->
+    <section class="tour-options">
+        <div class="container">
+            <div class="section-header">
+                <h2>Farm Tour Experiences</h2>
+                <p>Choose your perfect coffee adventure</p>
+            </div>
+            <div class="tours-grid">
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="images/tour-basic.jpg" alt="Basic Farm Tour">
+                    </div>
+                    <div class="tour-details">
+                        <h3>Basic Farm Tour</h3>
+                        <p class="tour-duration"><i class="fas fa-clock"></i> 2 hours</p>
+                        <p class="tour-description">A guided walk through our coffee fields with an overview of organic farming practices and the coffee lifecycle.</p>
+                        <ul class="tour-features">
+                            <li><i class="fas fa-check"></i> Coffee farm walk</li>
+                            <li><i class="fas fa-check"></i> Processing area visit</li>
+                            <li><i class="fas fa-check"></i> Coffee tasting</li>
+                            <li><i class="fas fa-check"></i> Q&A with our farmers</li>
+                        </ul>
+                        <div class="tour-price">
+                            <span>KSh 1,500</span>
+                            <small>per adult</small>
+                        </div>
+                        <div class="tour-price">
+                            <span>KSh 800</span>
+                            <small>per child (6-12)</small>
+                        </div>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+                <div class="tour-card featured">
+                    <div class="tour-badge">Most Popular</div>
+                    <div class="tour-image">
+                        <img src="images/tour-premium.jpg" alt="Premium Experience">
+                    </div>
+                    <div class="tour-details">
+                        <h3>Premium Experience</h3>
+                        <p class="tour-duration"><i class="fas fa-clock"></i> 4 hours</p>
+                        <p class="tour-description">Immerse yourself in the world of organic coffee with hands-on activities and an extended tasting session.</p>
+                        <ul class="tour-features">
+                            <li><i class="fas fa-check"></i> In-depth farm tour</li>
+                            <li><i class="fas fa-check"></i> Cherry picking demo</li>
+                            <li><i class="fas fa-check"></i> Processing participation</li>
+                            <li><i class="fas fa-check"></i> Cupping session</li>
+                            <li><i class="fas fa-check"></i> Organic lunch</li>
+                            <li><i class="fas fa-check"></i> 250g coffee to take home</li>
+                        </ul>
+                        <div class="tour-price">
+                            <span>KSh 3,500</span>
+                            <small>per adult</small>
+                        </div>
+                        <div class="tour-price">
+                            <span>KSh 1,800</span>
+                            <small>per child (6-12)</small>
+                        </div>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="images/tour-private.jpg" alt="Private Tour">
+                    </div>
+                    <div class="tour-details">
+                        <h3>Private Tour</h3>
+                        <p class="tour-duration"><i class="fas fa-clock"></i> 3-4 hours</p>
+                        <p class="tour-description">Exclusive experience with personalized attention from our farm experts, tailored to your interests.</p>
+                        <ul class="tour-features">
+                            <li><i class="fas fa-check"></i> Private guide</li>
+                            <li><i class="fas fa-check"></i> Customizable itinerary</li>
+                            <li><i class="fas fa-check"></i> Extended Q&A time</li>
+                            <li><i class="fas fa-check"></i> In-depth processing demo</li>
+                            <li><i class="fas fa-check"></i> Premium tasting</li>
+                            <li><i class="fas fa-check"></i> 500g specialty coffee</li>
+                        </ul>
+                        <div class="tour-price">
+                            <span>KSh 8,000</span>
+                            <small>for 1-4 people</small>
+                        </div>
+                        <div class="tour-price">
+                            <span>KSh 1,500</span>
+                            <small>per additional person</small>
+                        </div>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Highlights -->
+    <section class="tour-highlights alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tour Highlights</h2>
+                <p>What you'll experience during your visit</p>
+            </div>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-image">
+                        <img src="images/highlight-1.jpg" alt="Coffee Fields">
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Coffee Fields Walk</h3>
+                        <p>Stroll through our lush coffee fields while learning about organic cultivation methods, shade management, and the coffee plant lifecycle from flower to cherry.</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-image">
+                        <img src="images/highlight-2.jpg" alt="Processing">
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Processing Demonstration</h3>
+                        <p>See how coffee cherries are transformed into green beans through our natural sun-drying process, and learn why our methods produce superior flavor.</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-image">
+                        <img src="images/highlight-3.jpg" alt="Tasting">
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Coffee Tasting</h3>
+                        <p>Develop your palate as we guide you through tasting different roast profiles and brewing methods to appreciate the nuances of specialty coffee.</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-image">
+                        <img src="images/highlight-4.jpg" alt="Farm Life">
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Farm Life Experience</h3>
+                        <p>Get hands-on with activities like cherry picking (in season), composting, or planting seedlings to connect with the daily life of our farmers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Schedule -->
+    <section class="tour-schedule">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tour Schedule</h2>
+                <p>Plan your perfect visit</p>
+            </div>
+            <div class="schedule-content">
+                <div class="schedule-calendar">
+                    <h3>Daily Availability</h3>
+                    <div class="calendar">
+                        <div class="calendar-header">
+                            <button class="nav-button"><i class="fas fa-chevron-left"></i></button>
+                            <h4>October 2023</h4>
+                            <button class="nav-button"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                        <div class="calendar-grid">
+                            <div class="day-header">Sun</div>
+                            <div class="day-header">Mon</div>
+                            <div class="day-header">Tue</div>
+                            <div class="day-header">Wed</div>
+                            <div class="day-header">Thu</div>
+                            <div class="day-header">Fri</div>
+                            <div class="day-header">Sat</div>
+                            
+                            <!-- Previous month days -->
+                            <div class="day other-month">25</div>
+                            <div class="day other-month">26</div>
+                            <div class="day other-month">27</div>
+                            <div class="day other-month">28</div>
+                            <div class="day other-month">29</div>
+                            <div class="day other-month">30</div>
+                            <div class="day available">1</div>
+                            
+                            <div class="day available">2</div>
+                            <div class="day available">3</div>
+                            <div class="day available">4</div>
+                            <div class="day available">5</div>
+                            <div class="day available">6</div>
+                            <div class="day available">7</div>
+                            <div class="day available">8</div>
+                            
+                            <div class="day available">9</div>
+                            <div class="day available">10</div>
+                            <div class="day available">11</div>
+                            <div class="day available">12</div>
+                            <div class="day available">13</div>
+                            <div class="day available">14</div>
+                            <div class="day available">15</div>
+                            
+                            <div class="day available">16</div>
+                            <div class="day available">17</div>
+                            <div class="day available">18</div>
+                            <div class="day available">19</div>
+                            <div class="day available">20</div>
+                            <div class="day booked">21</div>
+                            <div class="day booked">22</div>
+                            
+                            <div class="day available">23</div>
+                            <div class="day available">24</div>
+                            <div class="day available">25</div>
+                            <div class="day available">26</div>
+                            <div class="day available">27</div>
+                            <div class="day available">28</div>
+                            <div class="day available">29</div>
+                            
+                            <div class="day available">30</div>
+                            <div class="day available">31</div>
+                            <div class="day other-month">1</div>
+                            <div class="day other-month">2</div>
+                            <div class="day other-month">3</div>
+                            <div class="day other-month">4</div>
+                            <div class="day other-month">5</div>
+                        </div>
+                    </div>
+                    <div class="calendar-legend">
+                        <div class="legend-item">
+                            <span class="legend-color available"></span>
+                            <span>Available</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color booked"></span>
+                            <span>Booked</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color other-month"></span>
+                            <span>Other Month</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-times">
+                    <h3>Daily Tour Times</h3>
+                    <div class="time-slots">
+                        <div class="time-slot">
+                            <h4>Basic Farm Tour</h4>
+                            <ul>
+                                <li>9:00 AM - 11:00 AM</li>
+                                <li>11:30 AM - 1:30 PM</li>
+                                <li>2:30 PM - 4:30 PM</li>
+                            </ul>
+                        </div>
+                        <div class="time-slot">
+                            <h4>Premium Experience</h4>
+                            <ul>
+                                <li>8:30 AM - 12:30 PM</li>
+                                <li>1:00 PM - 5:00 PM</li>
+                            </ul>
+                        </div>
+                        <div class="time-slot">
+                            <h4>Private Tour</h4>
+                            <p>Start times flexible between 8:00 AM and 2:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="tour-notes">
+                        <h4>Important Notes:</h4>
+                        <ul>
+                            <li><i class="fas fa-info-circle"></i> Tours available Tuesday-Sunday (closed Mondays)</li>
+                            <li><i class="fas fa-user"></i> Maximum 15 people per standard tour</li>
+                            <li><i class="fas fa-clock"></i> Arrive 15 minutes before your scheduled time</li>
+                            <li><i class="fas fa-utensils"></i> Lunch included in Premium tour only</li>
+                            <li><i class="fas fa-shoe-prints"></i> Wear comfortable walking shoes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="booking-form" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Tour</h2>
+                <p>Secure your spot for an unforgettable coffee experience</p>
+            </div>
+            <form class="tour-booking">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="tour-type">Tour Type</label>
+                        <select id="tour-type" required>
+                            <option value="">Select a tour</option>
+                            <option value="basic">Basic Farm Tour - KSh 1,500</option>
+                            <option value="premium">Premium Experience - KSh 3,500</option>
+                            <option value="private">Private Tour - KSh 8,000</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tour-date">Tour Date</label>
+                        <input type="date" id="tour-date" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="tour-time">Preferred Time</label>
+                        <select id="tour-time" required>
+                            <option value="">Select time</option>
+                            <!-- Times will be populated by JavaScript based on tour type -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="participants">Number of Participants</label>
+                        <div class="participant-selector">
+                            <button type="button" class="quantity-button minus">-</button>
+                            <input type="number" id="participants" value="1" min="1" max="15" required>
+                            <button type="button" class="quantity-button plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" id="country">
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="special-requests">Special Requests</label>
+                    <textarea id="special-requests" rows="3"></textarea>
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="btn btn-primary">Book Now</button>
+                    <p class="form-note">You'll receive a confirmation email with payment instructions within 24 hours.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Visitor Info -->
+    <section class="visitor-info alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visitor Information</h2>
+                <p>Everything you need to know before your visit</p>
+            </div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Getting Here</h3>
+                    <p><strong>Address:</strong> EcoFarms Meru, Nkubu, Meru County, Kenya</p>
+                    <p><strong>From Nairobi:</strong> 4-5 hour drive via Thika Road and Meru Highway</p>
+                    <p><strong>From Meru Town:</strong> 30 minute drive south to Nkubu</p>
+                    <p>Detailed directions will be provided upon booking confirmation.</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3>What to Bring</h3>
+                    <ul>
+                        <li>Comfortable walking shoes</li>
+                        <li>Hat and sunscreen</li>
+                        <li>Reusable water bottle</li>
+                        <li>Camera (we love photos!)</li>
+                        <li>Rain jacket (during rainy seasons)</li>
+                        <li>Cash for additional purchases</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h3>Important Notes</h3>
+                    <ul>
+                        <li>Children under 6 join for free but must be supervised</li>
+                        <li>Not wheelchair accessible due to farm terrain</li>
+                        <li>No pets allowed</li>
+                        <li>Smoking prohibited in farm areas</li>
+                        <li>Cancel up to 48 hours before for full refund</li>
+                        <li>Incase of rain, tours may be rescheduled</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Additional Experiences</h3>
+                    <p>Enhance your visit with these add-ons (available when booking or on-site):</p>
+                    <ul>
+                        <li><strong>Farm-to-Table Lunch:</strong> KSh 1,200 (if not included in your tour)</li>
+                        <li><strong>Coffee Brewing Workshop:</strong> KSh 1,500</li>
+                        <li><strong>Take-Home Coffee Pack:</strong> Various sizes available</li>
+                        <li><strong>Plant a Coffee Tree:</strong> KSh 800 (includes certificate)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What's the best time of year to visit?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our farm is beautiful year-round, but the experience varies by season:</p>
+                        <ul>
+                            <li><strong>Flowering Season (March-April):</strong> See the coffee plants covered in fragrant white flowers</li>
+                            <li><strong>Harvest Season (October-January):</strong> Most active time with cherry picking demonstrations</li>
+                            <li><strong>Dry Season (June-September):</strong> Ideal weather for touring and processing demonstrations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is the tour suitable for children?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Children 6 and older typically enjoy our tours, especially the hands-on activities like cherry picking (in season) and tasting (juice for kids). We find children 10+ get the most educational value. Children under 6 are welcome at no charge but may find the 2-hour basic tour long.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What COVID-19 precautions are in place?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We follow all Kenyan Ministry of Health guidelines:</p>
+                        <ul>
+                            <li>Hand sanitizing stations throughout the tour</li>
+                            <li>Outdoor activities with natural distancing</li>
+                            <li>Equipment sanitized between groups</li>
+                            <li>Staff fully vaccinated</li>
+                            <li>Masks available upon request</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can we buy coffee at the farm?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We have our full range of organic coffees available for purchase at the farm, often including limited editions not available elsewhere. Premium and Private tours include coffee to take home, but all visitors can purchase additional bags. We accept cash (KES) and mobile money (M-Pesa).</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What if it rains on our tour day?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We conduct tours in light rain (bring appropriate clothing), but for heavy rain that would make the experience unpleasant:</p>
+                        <ul>
+                            <li>We'll contact you by phone if we need to reschedule</li>
+                            <li>You can choose to reschedule or receive a full refund</li>
+                            <li>If the rain starts during your tour, we'll move to covered areas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer group or corporate tours?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We welcome groups up to 30 people with advance booking. Corporate or special interest groups can arrange customized experiences that might include:</p>
+                        <ul>
+                            <li>Team-building activities in the coffee fields</li>
+                            <li>Extended tasting sessions</li>
+                            <li>Private lunches with farm-to-table ingredients</li>
+                            <li>Combined coffee and sustainability workshops</li>
+                        </ul>
+                        <p>Contact us directly for group inquiries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo-white.png" alt="EcoFarms Meru Logo">
+                        <span>EcoFarms Meru</span>
+                    </a>
+                    <p>Sustainable organic coffee farming in the heart of Meru County, Kenya. Growing quality, teaching sustainability, and preserving tradition.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="coffee.html">Our Coffee</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="tours.html">Farm Tours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Nkubu, Meru County, Kenya</li>
+                        <li><i class="fas fa-phone"></i> +254 700 123456</li>
+                        <li><i class="fas fa-envelope"></i> info@ecofarmsmeru.com</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on our coffee, workshops, and special events.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-small">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EcoFarms Meru. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EcoFarms Meru Organic Coffee</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="EcoFarms Meru Logo">
+                <span>EcoFarms Meru</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="coffee.html">Our Coffee</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <header class="page-hero contact-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you - questions, feedback, or just to chat coffee!</p>
+        </div>
+    </header>
+
+    <!-- Contact Options -->
+    <section class="contact-options">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Reach Us</h2>
+                <p>Choose your preferred contact method</p>
+            </div>
+            <div class="options-grid">
+                <div class="option-card">
+                    <div class="option-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>For general inquiries, education programs, or wholesale orders</p>
+                    <a href="mailto:info@ecofarmsmeru.com" class="btn btn-small">info@ecofarmsmeru.com</a>
+                    <p class="response-time">Response within 24 hours</p>
+                </div>
+                <div class="option-card">
+                    <div class="option-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>For immediate assistance or tour bookings</p>
+                    <a href="tel:+254700123456" class="btn btn-small">+254 700 123456</a>
+                    <p class="response-time">Mon-Sat, 8:00 AM - 5:00 PM EAT</p>
+                </div>
+                <div class="option-card">
+                    <div class="option-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>For quick questions or voice messages</p>
+                    <a href="https://wa.me/254700123456" class="btn btn-small">+254 700 123456</a>
+                    <p class="response-time">Typically respond within hours</p>
+                </div>
+                <div class="option-card">
+                    <div class="option-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Schedule a visit to our farm in Nkubu, Meru</p>
+                    <a href="tours.html" class="btn btn-small">Book a Tour</a>
+                    <p class="response-time">Tours available Tue-Sun</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section alt-bg">
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="form-content">
+                    <h2>Send Us a Message</h2>
+                    <p>Have questions about our coffee, workshops, or tours? Fill out the form and we'll get back to you promptly.</p>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number (optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="coffee">Coffee Products</option>
+                                <option value="tours">Farm Tours</option>
+                                <option value="education">Education Programs</option>
+                                <option value="wholesale">Wholesale Inquiry</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-image">
+                    <img src="images/contact-farmer.jpg" alt="EcoFarms Meru farmer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us -->
+    <section class="visit-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Our Farm</h2>
+                <p>Experience organic coffee farming firsthand</p>
+            </div>
+            <div class="visit-content">
+                <div class="visit-details">
+                    <h3>EcoFarms Meru</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> Nkubu, Meru County, Kenya</p>
+                        <p><i class="fas fa-road"></i> Off Meru-Nkubu Road, 2km past Nkubu town</p>
+                    </address>
+                    
+                    <div class="visit-hours">
+                        <h4>Opening Hours:</h4>
+                        <ul>
+                            <li><span>Tuesday - Friday:</span> 8:00 AM - 5:00 PM</li>
+                            <li><span>Saturday - Sunday:</span> 9:00 AM - 4:00 PM</li>
+                            <li><span>Monday:</span> Closed</li>
+                        </ul>
+                        <p class="note">Tours by appointment only - please book in advance</p>
+                    </div>
+                    
+                    <div class="visit-actions">
+                        <a href="tours.html" class="btn btn-primary">Book a Tour</a>
+                        <a href="https://maps.google.com" class="btn btn-outline">Get Directions</a>
+                    </div>
+                </div>
+                <div class="visit-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.753622315796!2d37.66560931526392!3d-0.0699442355659299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMDInMTEuOCJTIDM3wrA0MCcwMS4xIkU!5e0!3m2!1sen!2ske!4v1620000000000!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Contact -->
+    <section class="team-contact alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Our Team</h2>
+                <p>Get in touch with the right person for your inquiry</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="/images/team-2.jpg" alt="Grace Kanana">
+                    <h3>Grace Kanana</h3>
+                    <p class="role">Farm Manager & Education Coordinator</p>
+                    <p class="contact-info">
+                        <i class="fas fa-envelope"></i> grace@ecofarmsmeru.com<br>
+                        <i class="fas fa-phone-alt"></i> +254 722 123456
+                    </p>
+                    <p class="expertise">For education programs and farm operations</p>
+                </div>
+                <div class="team-member">
+                    <img src="/images/team-3.jpg" alt="David Kimathi">
+                    <h3>David Kimathi</h3>
+                    <p class="role">Coffee Production & Sales</p>
+                    <p class="contact-info">
+                        <i class="fas fa-envelope"></i> david@ecofarmsmeru.com<br>
+                        <i class="fas fa-phone-alt"></i> +254 733 123456
+                    </p>
+                    <p class="expertise">For coffee orders and wholesale inquiries</p>
+                </div>
+                <div class="team-member">
+                    <img src="/images/team-4.jpg" alt="Sarah Njeri">
+                    <h3>Sarah Njeri</h3>
+                    <p class="role">Tour Coordinator</p>
+                    <p class="contact-info">
+                        <i class="fas fa-envelope"></i> tours@ecofarmsmeru.com<br>
+                        <i class="fas fa-phone-alt"></i> +254 711 123456
+                    </p>
+                    <p class="expertise">For farm tours and visitor experiences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="contact-faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Common Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I purchase your coffee?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can purchase our coffee through several channels:</p>
+                        <ul>
+                            <li><strong>At the farm:</strong> Visit us to buy directly and get the freshest batches</li>
+                            <li><strong>Online:</strong> Order through our website (coming soon)</li>
+                            <li><strong>Nairobi Stockists:</strong> Available at select specialty stores</li>
+                            <li><strong>Wholesale:</strong> Contact David for bulk orders (100kg+)</li>
+                        </ul>
+                        <p>We're working to expand our distribution network - check back for updates!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you ship internationally?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Currently, we only ship within Kenya via courier. For international orders:</p>
+                        <ul>
+                            <li>Minimum order of 5kg required due to shipping costs</li>
+                            <li>Shipping time varies by destination (typically 7-14 days)</li>
+                            <li>Customer responsible for any import duties</li>
+                        </ul>
+                        <p>Contact David with international inquiries for a shipping quote.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I volunteer at the farm?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We occasionally accept volunteers, particularly during harvest season (Oct-Jan). Volunteer opportunities depend on:</p>
+                        <ul>
+                            <li>Current farm needs and capacity</li>
+                            <li>Your skills and experience</li>
+                            <li>Minimum 2-week commitment</li>
+                        </ul>
+                        <p>Volunteers typically help with harvesting, processing, or educational programs. Send your CV and interest to Grace.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer internships?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We offer internships in:</p>
+                        <ul>
+                            <li>Organic farming practices</li>
+                            <li>Agroecology and permaculture</li>
+                            <li>Sustainable coffee processing</li>
+                            <li>Farm-based education</li>
+                            <li>Agritourism operations</li>
+                        </ul>
+                        <p>Internships are typically 3-6 months. University students in relevant fields preferred. Contact Grace for current opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter alt-bg">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay Connected</h2>
+                    <p>Subscribe to our newsletter for farm updates, coffee releases, and special events.</p>
+                    <ul class="newsletter-benefits">
+                        <li><i class="fas fa-check"></i> Seasonal farming updates</li>
+                        <li><i class="fas fa-check"></i> New coffee releases</li>
+                        <li><i class="fas fa-check"></i> Workshop announcements</li>
+                        <li><i class="fas fa-check"></i> Exclusive subscriber offers</li>
+                    </ul>
+                </div>
+                <div class="newsletter-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="newsletter-name">Name</label>
+                            <input type="text" id="newsletter-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="newsletter-email">Email</label>
+                            <input type="email" id="newsletter-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="newsletter-interests">Interests</label>
+                            <select id="newsletter-interests" multiple>
+                                <option value="coffee">Coffee Products</option>
+                                <option value="education">Education Programs</option>
+                                <option value="tours">Farm Tours</option>
+                                <option value="events">Special Events</option>
+                            </select>
+                            <small>Hold Ctrl/Cmd to select multiple</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo-white.png" alt="EcoFarms Meru Logo">
+                        <span>EcoFarms Meru</span>
+                    </a>
+                    <p>Sustainable organic coffee farming in the heart of Meru County, Kenya. Growing quality, teaching sustainability, and preserving tradition.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="coffee.html">Our Coffee</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="tours.html">Farm Tours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Nkubu, Meru County, Kenya</li>
+                        <li><i class="fas fa-phone"></i> +254 700 123456</li>
+                        <li><i class="fas fa-envelope"></i> info@ecofarmsmeru.com</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on our coffee, workshops, and special events.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-small">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EcoFarms Meru. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
